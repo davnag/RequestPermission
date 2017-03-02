@@ -21,10 +21,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DataSource : SPRequestPermissionDialogInteractiveDataSource {
+    override func topAdviceTitle() -> String {
+        return "topAdviceTitle"
+    }
     
-    let permissionAssistant = SPRequestPermissionAssistant.modules.dialog.interactive.create(with: [.Camera, .PhotoLibrary, .Notification])
+    override func headerTitle() -> String {
+        return "headerTitle"
+    }
+}
 
+
+class ViewController: UIViewController  {
+    
+    
+    lazy var  permissionAssistant = { () -> SPRequestPermissionAssistantInterface in 
+        let data = DataSource()
+        return SPRequestPermissionAssistant.modules.dialog.interactive.create(with: [.SpeechRecognition, .Calendar,.Microphone, .Location], dataSourceForController: data)
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.init(hex: "#00A3E8")

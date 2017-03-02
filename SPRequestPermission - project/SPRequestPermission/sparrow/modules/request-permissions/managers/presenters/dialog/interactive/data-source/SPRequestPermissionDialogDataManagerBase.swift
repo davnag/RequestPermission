@@ -26,6 +26,7 @@ public class SPRequestPermissionDialogInteractiveDataSource: SPRequestPermission
     public func iconForNormalPermissionControl(_ permission: SPRequestPermissionType) -> UIImage {
         var iconBezierPath = UIBezierPath()
         let requestWidth: CGFloat = 100
+        
         switch permission {
         case .Camera:
             iconBezierPath = SPBezierPathFigure.icons.camera(width: requestWidth)
@@ -33,6 +34,14 @@ public class SPRequestPermissionDialogInteractiveDataSource: SPRequestPermission
             iconBezierPath = SPBezierPathFigure.icons.photo_library(width: requestWidth)
         case .Notification:
             iconBezierPath = SPBezierPathFigure.icons.notification(width: requestWidth)
+        case .Location:
+            return #imageLiteral(resourceName: "Location")
+        case .Calendar:
+            return #imageLiteral(resourceName: "Calendar")
+        case .Microphone:
+            return #imageLiteral(resourceName: "Microphone")
+        case .SpeechRecognition:
+            return #imageLiteral(resourceName: "Speech")
         }
         return iconBezierPath.convertToImage(fill: true, stroke: false, color: UIColor.black)
     }
@@ -52,6 +61,14 @@ public class SPRequestPermissionDialogInteractiveDataSource: SPRequestPermission
             title = SPRequestPermissionData.texts.enable_photoLibrary()
         case .Notification:
             title = SPRequestPermissionData.texts.enable_notification()
+        case .Location:
+            title = SPRequestPermissionData.texts.enable_location()
+        case .Calendar:
+            title = SPRequestPermissionData.texts.enable_calendar()
+        case .Microphone:
+            title = SPRequestPermissionData.texts.enable_microphone()
+        case .SpeechRecognition:
+            title = SPRequestPermissionData.texts.enable_speech()
         }
         return title
     }

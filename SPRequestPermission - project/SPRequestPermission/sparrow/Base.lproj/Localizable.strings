@@ -1,0 +1,23 @@
+
+
+"SPRequestPermission.Title" = "Hello!";
+"SPRequestPermission.Subtitle" = "Application needs permission";
+"SPRequestPermission.Advice" = "Allow permission please. This helps to use application";
+"SPRequestPermission.Advice.Additional" = "You can manage permissions in settings";
+"SPRequestPermission.PermissionDisableTitle" = "Important";
+"SPRequestPermission.PermissionDisableText" = "Permission denied. Please, go to Settings and allow permissions";
+"SPRequestPermission.Swipe.Hide" = "Swipe to hide";
+"SPRequestPermission.Cancel" = "Cancel";
+"SPRequestPermission.Settings" = "Settings";
+
+"SPRequestPermission.Option.Camera" = "Enable Camera Access";
+"SPRequestPermission.Option.PhotoLibrary" = "Enable Photo Library Access";
+"SPRequestPermission.Option.Notification" = "Enable Notification";
+"SPRequestPermission.Option.Location" = "Enable Location";
+"SPRequestPermission.Option.Calendar" = "Enable Calendar Access";
+"SPRequestPermission.Option.Microphone" = "Enable Microphone";
+"SPRequestPermission.Option.Speech" = "Enable Speech Recognition";
+
+
+
+

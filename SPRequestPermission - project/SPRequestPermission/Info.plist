@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>For Example</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>For Example</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -34,6 +38,18 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>For Example</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>For Example</string>
+	<key>NSLocationUsageDescription</key>
+	<string>For Example</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>For Example</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>For Example</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>For Example</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -41,9 +57,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>For Example</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>For Example</string>
 </dict>
 </plist>

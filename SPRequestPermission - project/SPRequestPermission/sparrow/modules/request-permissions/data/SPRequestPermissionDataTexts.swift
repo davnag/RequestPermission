@@ -27,51 +27,67 @@ extension SPRequestPermissionData {
     
     struct texts {
         static func title() -> String {
-            return "Hello!"
+            return NSLocalizedString("SPRequestPermission.Title", comment: "")
         }
         
         static func subtitile() -> String {
-            return "Application needs permission"
+            return NSLocalizedString("SPRequestPermission.Subtitle", comment: "")
         }
         
         static func advice() -> String {
-            return "Allow permission please. This helps to use application"
+            return NSLocalizedString("SPRequestPermission.Advice", comment: "")
         }
         
         static func advice_additional() -> String {
-            return "You can manage permissions in settings"
+            return NSLocalizedString("SPRequestPermission.Advice.Additional", comment: "")
         }
         
         static func enable_camera() -> String {
-            return "Enable Camera"
+            return NSLocalizedString("SPRequestPermission.Option.Camera", comment: "")
         }
         
         static func enable_photoLibrary() -> String {
-            return "Enable PhotoLibrary"
+            return NSLocalizedString("SPRequestPermission.Option.PhotoLibrary", comment: "")
         }
         
         static func enable_notification() -> String {
-            return "Enable Notification"
+            return NSLocalizedString("SPRequestPermission.Option.Notification", comment: "")
+        }
+        
+        static func enable_location() -> String {
+            return NSLocalizedString("SPRequestPermission.Option.Location", comment: "")
+        }
+        
+        static func enable_calendar() -> String {
+            return NSLocalizedString("SPRequestPermission.Option.Calendar", comment: "")
+        }
+        
+        static func enable_microphone() -> String {
+            return NSLocalizedString("SPRequestPermission.Option.Microphone", comment: "")
+        }
+        
+        static func enable_speech() -> String {
+            return NSLocalizedString("SPRequestPermission.Option.Speech", comment: "")
         }
         
         static func swipe_for_hide() -> String {
-            return "Swipe to hide"
+            return NSLocalizedString("SPRequestPermission.Swipe.Hide", comment: "")
         }
         
         static func cancel() -> String {
-            return "Cancel"
+            return NSLocalizedString("SPRequestPermission.Cancel", comment: "")
         }
         
         static func settings() -> String {
-            return "Settings"
+            return NSLocalizedString("SPRequestPermission.Settings", comment: "")
         }
         
         static func titleDisablePermissionAlertText() -> String {
-            return "Important"
+            return NSLocalizedString("SPRequestPermission.PermissionDisableTitle", comment: "")
         }
         
         static func subtitleDisablePermissionAlertText() -> String {
-            return "Permission denied. Please, go to Settings and allow permissions"
+            return NSLocalizedString("SPRequestPermission.PermissionDisableText", comment: "")
         }
     }
 }

@@ -44,6 +44,10 @@ class SPRequestPermissionDialogInteractivePresenter: SPRequestPermissionPresente
         }
     }
     
+    func set(headerTitle title:String) {
+        self.viewController.setHeaderTitle(title)
+    }
+    
     init(viewController: SPRequestPermissionDialogInteractiveViewControllerInterface, dataSource: SPRequestPermissionDialogInteractiveDataSourceInterface) {
         self.dataSource = dataSource
         self.viewController = viewController
