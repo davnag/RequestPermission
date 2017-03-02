@@ -11,6 +11,7 @@
 		51EFDD651E683883000EE01F /* AuthorizationHandlerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EFDD641E683883000EE01F /* AuthorizationHandlerInterface.swift */; };
 		51EFDD671E687DD5000EE01F /* IconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EFDD661E687DD5000EE01F /* IconAssets.xcassets */; };
 		51EFDD6A1E6884D4000EE01F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51EFDD6C1E6884D4000EE01F /* Localizable.strings */; };
+		51EFDF171E68A873000EE01F /* SPRequestPermissionDialogInteractiveCustomDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EFDF161E68A873000EE01F /* SPRequestPermissionDialogInteractiveCustomDataSource.swift */; };
 		F47FA0281E584C370013D030 /* SPAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F9FA71E584C360013D030 /* SPAnimation.swift */; };
 		F47FA0291E584C370013D030 /* SPAnimationSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F9FA81E584C360013D030 /* SPAnimationSpring.swift */; };
 		F47FA02A1E584C370013D030 /* SPAnimationUpward.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F9FA91E584C360013D030 /* SPAnimationUpward.swift */; };
@@ -98,6 +99,7 @@
 		51EFDD661E687DD5000EE01F /* IconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IconAssets.xcassets; sourceTree = "<group>"; };
 		51EFDD6B1E6884D4000EE01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		51EFDD6D1E6884EF000EE01F /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		51EFDF161E68A873000EE01F /* SPRequestPermissionDialogInteractiveCustomDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDialogInteractiveCustomDataSource.swift; sourceTree = "<group>"; };
 		F47F9FA71E584C360013D030 /* SPAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimation.swift; sourceTree = "<group>"; };
 		F47F9FA81E584C360013D030 /* SPAnimationSpring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationSpring.swift; sourceTree = "<group>"; };
 		F47F9FA91E584C360013D030 /* SPAnimationUpward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationUpward.swift; sourceTree = "<group>"; };
@@ -464,6 +466,7 @@
 			isa = PBXGroup;
 			children = (
 				F47F9FDB1E584C360013D030 /* SPRequestPermissionDialogDataManagerBase.swift */,
+				51EFDF161E68A873000EE01F /* SPRequestPermissionDialogInteractiveCustomDataSource.swift */,
 			);
 			path = "data-source";
 			sourceTree = "<group>";
@@ -877,6 +880,7 @@
 				F47FA0581E584C370013D030 /* SPIconsButton.swift in Sources */,
 				F47FA0661E584C370013D030 /* SPBlurView.swift in Sources */,
 				F47FA06B1E584C370013D030 /* SPUILabelExtenshion.swift in Sources */,
+				51EFDF171E68A873000EE01F /* SPRequestPermissionDialogInteractiveCustomDataSource.swift in Sources */,
 				F47FA0451E584C370013D030 /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift in Sources */,
 				F47FA0541E584C370013D030 /* SPExtenshionViewController.swift in Sources */,
 				F47FA02A1E584C370013D030 /* SPAnimationUpward.swift in Sources */,
